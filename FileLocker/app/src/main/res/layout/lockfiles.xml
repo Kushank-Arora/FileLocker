@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="10dp"
+    android:background="#333">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:gravity="center"
+        android:layout_height="wrap_content"
+        android:text="Lock Files"
+        android:textSize="30dp"
+        android:padding="10dp"
+        android:background="@drawable/textview_bg"
+        android:textColor="#fff"
+        android:layout_gravity="center_horizontal" />
+
+    <ListView
+        android:background="#fff"
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="350dp"
+        android:id="@+id/lvLockFiles" />
+
+    <Button
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:textAllCaps="false"
+        android:background="@drawable/button_selector"
+        android:textColor="#fff"
+        android:textSize="20dp"
+        android:padding="10dp"
+        android:layout_marginTop="10dp"
+        android:text="Lock All Selected"
+        android:id="@+id/block"
+        android:layout_gravity="center_horizontal"
+        />
+</LinearLayout>
